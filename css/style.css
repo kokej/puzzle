@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    height: 1000px;
+}
+
+[draggable]{
+    cursor: move;
+}
+
+.puzzle{
+    position: absolute;
+    z-index: 5;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+#main-puzzle{
+    position: absolute;
+    opacity: 0.4;
+}
+
+#range_puzzle_ul{
+   
+}
+
+#range_puzzle_ul li{
+    list-style: none;
+    display: inline-block;
+}
